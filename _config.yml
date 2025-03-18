@@ -24,8 +24,8 @@ minimal_mistakes_skin: default
 search: true
 
 
-# url : "/"
-# repository : "skylerwlee/skylerlee.github.io"
+url : "/"
+repository : "skylerwlee/skylerlee.github.io"
 
 # Build settings
 markdown: kramdown

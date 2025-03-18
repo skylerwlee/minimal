@@ -23,9 +23,6 @@ github_username: skylerwlee
 minimal_mistakes_skin: default
 search: true
 
-url : "/"
-repository : "skylerwlee/skylerlee.github.io"
-
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes@4.26.2

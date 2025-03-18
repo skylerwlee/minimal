@@ -22,7 +22,7 @@ github_username: skylerwlee
 minimal_mistakes_skin: default
 search: true
 
-url : "https://skylerlee.github.io"
+# url : "https://skylerlee.github.io"
 repository : "skylerwlee/skylerlee.github.io"
 
 # Build settings

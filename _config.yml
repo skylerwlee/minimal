@@ -22,7 +22,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 github_username: skylerwlee
 minimal_mistakes_skin: default
 search: true
-
+ 
+ 
 
 url : "/"
 repository : "skylerwlee/skylerlee.github.io"

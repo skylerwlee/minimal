@@ -25,7 +25,7 @@ search: true
 baseurl: ""
 
 # url : "/"
-repository : "skylerwlee/skylerlee.github.io"
+# repository : "skylerwlee/skylerlee.github.io"
 
 # Build settings
 markdown: kramdown

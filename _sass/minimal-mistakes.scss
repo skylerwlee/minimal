@@ -1,0 +1,89 @@
+/* Copyright comment */
+@import "minimal-mistakes/copyright";
+
+/* Variables */
+@import "minimal-mistakes/variables";
+
+/* Mixins and functions */
+@import "minimal-mistakes/vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+@import "minimal-mistakes/vendor/magnific-popup/magnific-popup"; // Magnific Popup
+@import "minimal-mistakes/vendor/susy/susy";
+@import "minimal-mistakes/mixins";
+
+/* Core CSS */
+@import "minimal-mistakes/reset";
+@import "minimal-mistakes/base";
+@import "minimal-mistakes/forms";
+@import "minimal-mistakes/tables";
+@import "minimal-mistakes/animations";
+
+/* Components */
+@import "minimal-mistakes/buttons";
+@import "minimal-mistakes/notices";
+@import "minimal-mistakes/masthead";
+@import "minimal-mistakes/navigation";
+@import "minimal-mistakes/footer";
+@import "minimal-mistakes/search";
+@import "minimal-mistakes/syntax";
+
+/* Utility classes */
+@import "minimal-mistakes/utilities";
+
+/* Layout specific */
+@import "minimal-mistakes/page";
+@import "minimal-mistakes/archive";
+@import "minimal-mistakes/sidebar";
+@import "minimal-mistakes/print";
+
+.archive__item-title {
+    a {
+      color: #000000 !important;
+      font-weight: bold;
+      font-size: 1.25em; // Increase font size
+      text-decoration: none !important; // Remove underline
+    }
+    
+  }
+
+  .post__meta .icon {
+    display: none !important; /* Hides the icons for "time to read" and "date" */
+  }
+
+
+.masthead__menu {
+    a {
+      color: #2b2f35 !important; /* Change the text color to blue */
+    }
+  }
+
+  .masthead__menu a:hover {
+    color: #5296d5 !important; /* Keep the color blue on hover */
+  }
+  
+  .site-title {
+    font-size: 2.25em !important; /* Adjust the size as needed */
+  }
+  
+//   body {
+//     font-family: Lato, sans-serif; /* Change to your desired font */
+//   }
+
+  body {
+    font-family: Lato, sans-serif;
+  }
+  
+  p,
+  ul,
+  ol,
+  li,
+  blockquote,
+  table,
+  form,
+  pre {
+    font-family: "Your Desired Font", sans-serif;
+  }
+  
+  
+  
+  
